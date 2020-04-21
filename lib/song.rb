@@ -50,13 +50,13 @@ class Song
   def self.new_from_filename (filename)
     data = filename.split(/[-.])
     name = data[1].strip
-    artist_name = data[0].strip 
+    artist_name = data[0].strip
 
-    song = self.new 
-    song.name = name 
+    song = self.new
+    song.name = name
     song.artist_name = artist_name
 
-    song 
+    song
 
   end
 
