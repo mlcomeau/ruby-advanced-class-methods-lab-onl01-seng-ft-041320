@@ -31,7 +31,17 @@ class Song
     @@all.find {|song| song.name == name}
   end
 
+  def self.find_or_create_by_name
+  end
 
+  def self.alphabetical
+    self.all.sort 
+  end
+
+  def self.destroy_all
+    self.all.clear
+  end
+  
 
 
 end
