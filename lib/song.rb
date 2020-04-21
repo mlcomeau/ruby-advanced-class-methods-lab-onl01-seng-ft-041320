@@ -52,10 +52,10 @@ class Song
     name = data[0]
     artist_name = data[1]
 
-    song = self.new 
-    song.name = name 
+    song = self.new
+    song.name = name
     song.artist_name = artist_name
-    
+
   end
 
 
